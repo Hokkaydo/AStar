@@ -7,13 +7,13 @@ import java.util.stream.Collectors;
 
 public class Graph2D extends Pane implements Graph<Cell> {
 
-    int rows;
-    int columns;
+    private final int rows;
+    private final int columns;
 
-    double width;
-    double height;
+    private final double width;
+    private final double height;
 
-    Cell[][] cells;
+    private final Cell[][] cells;
 
     public Graph2D(int columns, int rows, double width, double height) {
 
